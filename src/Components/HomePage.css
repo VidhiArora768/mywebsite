@@ -1,0 +1,51 @@
+/*  adding animation to image*/
+
+.my-animation {
+    animation-name: myAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes myAnimation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+
+
+
+
+/* adding animation to name of the website */
+  
+  
+ 
+  
+  
+
+
+  .website-name {
+    animation-name: float;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    position: absolute;
+    right: 0;
+  }
+  
+  @keyframes float {
+    0% {
+      right: 0px;
+    }
+    100% {
+      right: 79%;
+      transform: translateX(-50%);
+    }
+   
+  }

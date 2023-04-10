@@ -1,0 +1,17 @@
+.addstyle{
+    margin:0.8vw;
+    margin-top: 0.5vw;
+    padding:1vw;
+    font-size:20px;
+    font-weight: bold;
+}
+
+
+.sidecomp{
+    background-color:#34495E;
+    height:130vh;
+    width:20vw;
+    color:white;
+    min-width: 20vw;
+
+}
